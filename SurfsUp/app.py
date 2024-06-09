@@ -1,6 +1,6 @@
 # Import the dependencies.
 import numpy as np
-
+import os
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
@@ -14,7 +14,7 @@ from flask import Flask, jsonify
 #################################################
 
 # Create engine using the `hawaii.sqlite` database file
-engine = create_engine("sqlite:///Resources/hawaii.sqlite")
+engine = create_engine("sqlite:///SurfsUp/Resources/hawaii.sqlite")
 
 # Declare a Base using `automap_base()`
 Base = automap_base()
