@@ -5,3 +5,6 @@ Congratulations! You've decided to treat yourself to a long holiday vacation in 
 
 Part 1: Analyse and Explore the Climate Data
 In this section, you’ll use Python and SQLAlchemy to do a basic climate analysis and data exploration of your climate database. Specifically, you’ll use SQLAlchemy ORM queries, Pandas, and Matplotlib.
+
+Part 2: Design Your Climate App
+Now that you’ve completed your initial analysis, you’ll design a Flask API based on the queries that you just developed. 
